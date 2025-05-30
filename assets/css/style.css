@@ -1,0 +1,110 @@
+body {
+    background-image: url(assets/images/KAME HOUSE);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #343a40;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+h1 {
+    color: #dc3545;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    object-fit: cover;
+    object-position: center;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    height: 280px;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 0.95rem;
+    color: #495057;
+}
+
+.alert.alert-info,
+.alert.alert-danger {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #343a40;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.alert.alert-info {
+    border-color: #0dcaf0;
+    color: #0dcaf0;
+}
+
+.alert.alert-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+#mensaje-error {
+    font-size: 0.9rem;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.modal-body img {
+    border-radius: 8px;
+}
+
+.modal-body p strong {
+    color: #0d6efd;
+}
