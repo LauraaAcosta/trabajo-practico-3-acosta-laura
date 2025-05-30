@@ -1,5 +1,5 @@
 body {
-    background-image: url(assets/images/KAME HOUSE);
+    background-image: url(/assets/images/kame-house.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -19,11 +19,16 @@ body {
     padding: 30px;
 }
 
+@font-face {
+    font-family: "SaiyanFont";
+    src: url(/assets/font/Saiyan-Sans.ttf);
+}
+
 h1 {
-    color: #dc3545;
-    font-family: 'Bebas Neue', cursive;
+    color: #c74a24;
     font-size: 3.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    font-family:"SaiyanFont", sans-serif ;
 }
 
 .card {
